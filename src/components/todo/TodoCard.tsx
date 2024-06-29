@@ -5,7 +5,7 @@ const TodoCard = () => {
         <div className='bg-white rounded-lg my-2 flex justify-between items-center p-3 border'>
             <input type="checkbox" name="" id="" />
             <p className="font-semibold">Todo Title</p>
-            <p className="font-semibold">Time</p>
+            {/* <p className="font-semibold">Time</p> */}
             <p className="font-semibold">Description</p>
             <div className="space-x-5">
                 <Button className="bg-red-500"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-5">
